@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-alibaba-consumer</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.nala</groupId>
+            <artifactId>cloud-alibaba-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-dubbo</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
