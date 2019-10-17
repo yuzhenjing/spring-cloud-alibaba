@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloud-alibaba-provider</artifactId>
-
+<dependencies>
+    <dependency>
+        <groupId>com.nala</groupId>
+        <artifactId>cloud-alibaba-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+</dependencies>
 
 </project>
